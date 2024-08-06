@@ -1,0 +1,177 @@
+
+*{
+    box-sizing: border-box;
+}
+input {
+    padding:10px;
+      font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    border-radius: 0 !important;
+  }
+  
+  .form-control {
+    border-radius: 0 !important;
+    font-size: 12x;
+  }
+  
+  .clickable { cursor: pointer; }
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+ 
+  
+  .container .btn {
+    position: absolute;
+    top: 80%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+  .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+ 
+
+
+  
+  * {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .slider-container {
+    margin: 10px auto;
+    width: 800px;
+    height: 500px;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .slider-container img{
+      width: 100%;
+      position: absolute;
+      opacity: 0;
+      z-index: 1;
+      transition: opacity 1s;
+      -webkit-transition: opacity 1s;
+      -moz-transition: opacity 1s;
+      -ms-transition: opacity 1s;
+      -o-transition: opacity 1s;
+  }
+  
+  .slider-container img.active{
+      opacity: 1;
+  }
+  
+  
+  .slider-container .slide-number {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background-color: rgba(0, 0, 0, .6);
+      color: #FFF;
+      padding: 5px 10px;
+      font-size: 20px;
+      z-index: 2;
+      border-radius: 6px;
+    }
+    .slider-controls {
+      width: 800px;
+      margin: auto;
+      overflow: hidden;
+    }
+    .slider-controls .prev,
+    .slider-controls .next {
+      background-color: #009688;
+      color: #FFF;
+      font-size: 16px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 4px;
+      padding: 5px;
+      user-select: none;
+      width: 20%;
+    }
+    .slider-controls .prev {
+      float: left;
+    }
+    .slider-controls .next {
+      float: right;
+    }
+    .slider-controls .prev.disabled,
+    .slider-controls .next.disabled {
+      background-color: rgba(0, 150, 136, 0.5);
+      cursor: no-drop;
+    }
+    .slider-controls .indicators {
+      width: 60%;
+      float: left;
+    }
+    .slider-controls .indicators ul {
+      list-style: none;
+      margin: 0;
+      text-align: center;
+    }
+    .slider-controls .indicators ul li {
+      display: inline-block;
+      background-color: #F6F6F6;
+      color: #333;
+      font-weight: bold;
+      height: 28px;
+      width: 28px;
+      border-radius: 4px;
+      margin: 0 2px;
+      line-height: 28px;
+      cursor: pointer;
+    }
+    .slider-controls .indicators ul li.active {
+      background-color: #009688;
+      color: #FFF;
+    }
+  .display1 * {
+    display:inline;
+  
+  }
+  
+  .display2 {
+    display:inline;
+  }
+  .border ul{
+    border: 1px seagreen;
+  }
+
+  .right {
+    position: absolute;
+    left:70%;
+  }
+
+  .padding {
+ padding: 8px;
+  }
+
+  .back-color{
+    background-color: rgb(38, 38, 224);
+  }
+  
