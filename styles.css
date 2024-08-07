@@ -109,14 +109,14 @@ body {
 
 .back-col {
   background-color: rgb(22, 18, 148);
-  margin-left: -190px !important;
-  margin-right: -190px !important;
+  margin:100px auto;
   height: 400px;
 }
 
 .main-container {
-  margin-left: 175px;
-  margin-right: 175px;
+  width:100%;
+  margin:0px;
+
 }
 
 .container2 {
@@ -126,10 +126,6 @@ body {
 
 }
 
-
-.center {
-  margin-left: 195px;
-}
 
 .col1 {
   color: white;
@@ -148,8 +144,12 @@ div .fonts a {
 }
 
 .margint {
-  margin-top: -25px;
+  margin-top: -45px;
   align-items: center;
+  position:absolute;
+  width:76%;
+  left:12%;
+  
 
 
 }
@@ -262,7 +262,7 @@ div .text-container {
   width: 92%;
 }
 .but-size{
-  width:80px;
+  width:81px;
   font-size:20px;
   height:43px;
   padding-bottom:3px;
