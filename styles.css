@@ -31,16 +31,31 @@ input{
 
 .container {
   position: relative;
-  width: 100%;
-  max-width: 400px;
+  background-size: 100%;
+  height:200px;
+  background-position: center;
+  background-image: url('abc.jpeg');
+  border-radius: 8px;
 }
+.era {
+  position: relative;
+  max-width: 49.9%;
+  height:200px;
+ 
+  background-position: center;
+  background-image: url('lhr1.jpg');
+}
+.col5{
+  color:black;
+}
+
 
 
 
 .container .btn {
   position: absolute;
   top: 80%;
-  left: 29%;
+  left: 10%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   background-color: #0084ff;
@@ -366,7 +381,7 @@ div.desc {
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 0 2px;
   float: left;
   width: 24.99999%;
 }
@@ -394,8 +409,8 @@ div.desc {
   color:black;
 }
 .no-right-padding{
-  padding-right:5px !important;
-  padding-left: 0px !important;
+  padding-right:3px !important;
+  padding-left: 1px !important;
 }
 .right-padding{
   padding-right:5px !important;
@@ -406,5 +421,35 @@ div.desc {
   padding-left: 5px !important;
 }
 .col5{
-  background-color:White;
+  color:black;
+}
+
+.circ-border{
+  border-radius: 8px !important;
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.container2 {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.era2{
+  position: relative;
+  max-width: 49.9%;
+  height:200px;
+  
+  background-position: center;
+  background-image: url('isl1.jpg');
+}
+.ovrflw{
+  overflow-x:scroll;
+}
+.dis-flex{
+  display:flex;
+  flex:4;
+  width:
 }
