@@ -382,8 +382,8 @@ div.desc {
 
 .responsive {
   padding: 0 2px;
-  float: left;
-  width: 24.99999%;
+ 
+  flex: 0 0 25%;
 }
 
 @media only screen and (max-width: 700px) {
@@ -420,6 +420,21 @@ div.desc {
   padding-right:0px !important;
   padding-left: 5px !important;
 }
+.med-padding{
+  padding-right:5px !important;
+  padding-left: 10px !important;
+}
+.padding-top{
+  padding-top:5px;
+}
+.padding-med{
+  padding:5px;
+}
+.zero-left-padding{
+  padding-left: 0px !important;
+  padding-top:5px;
+  padding-right:5px;
+}
 .col5{
   color:black;
 }
@@ -437,14 +452,7 @@ div.desc {
   text-align: center;
   color: black;
 }
-.era2{
-  position: relative;
-  max-width: 49.9%;
-  height:200px;
-  
-  background-position: center;
-  background-image: url('isl1.jpg');
-}
+
 .ovrflw{
   overflow-x:scroll;
 }
