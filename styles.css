@@ -7,13 +7,16 @@ body{
 
 input {
   padding: 10px;
-  font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+  font-family: "Open Sans", Verdana, sans-serif;
   font-style: normal;
   font-weight: normal;
   text-decoration: inherit;
   border-radius: 0 !important;
   height: 55px;
-  width:245px;
+  width:250px;
+  margin-right:-5px;
+  font-size:20px;
+
 }
 
 .form-control {
@@ -271,7 +274,7 @@ div ul li button a {
   height:55px;
   padding-bottom:3px;
   background-color: #0084ff;
-
+  color:white;
 
 }
 .left-marg{
