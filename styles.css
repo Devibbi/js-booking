@@ -1,3 +1,6 @@
+body{
+  margin:0;
+}
 * {
   box-sizing: border-box;
 }
@@ -380,4 +383,8 @@ div.desc {
 .txt-dec{
   text-decoration: none;
   color:black;
+}
+.no-right-padding{
+  padding: 0px !important;
+  padding-left: 10px;
 }
