@@ -12,6 +12,8 @@ input {
   font-weight: normal;
   text-decoration: inherit;
   border-radius: 0 !important;
+  height: 55px;
+  width:245px;
 }
 
 .form-control {
@@ -158,14 +160,14 @@ div .fonts a {
 
 }
 .sborder{
-  border: 5px solid rgb(255, 166, 0);
+  border: 2px solid rgb(255, 166, 0);
 
   border-radius:5px;
 }
 
 
 .searchborder input, .but-size {
-  border: 5px solid rgb(255, 166, 0);
+  border: 2px solid rgb(255, 166, 0);
 
 }
 
@@ -264,9 +266,9 @@ div ul li button a {
 
 
 .but-size{
-  width:81px;
+  width:96px;
   font-size:20px;
-  height:43px;
+  height:55px;
   padding-bottom:3px;
   background-color: #0084ff;
 
@@ -397,4 +399,7 @@ div.desc {
 .left-padding{
   padding-right:0px !important;
   padding-left: 5px !important;
+}
+.col5{
+  background-color:White;
 }
